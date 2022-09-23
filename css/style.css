@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap');
+*,html,body{
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  background-color: #fffafa;
+  scroll-behavior: smooth;
+}
+b{
+  font-size: 4rem;
+  color: coral;
+}
+.shadow-in {
+  -moz-box-shadow:    inset 0 0 12px #000000;
+  -webkit-box-shadow: inset 0 0 12px #000000;
+  box-shadow:         inset 0 0 12px #000000;
+}
+
+.nav-pills-bg-soft {
+  background-color: rgba(6, 106, 201, 0.1);
+  padding: 0.625rem 0;
+  border-radius: 0.625rem;
+}
+.btn-coral{
+    --bs-btn-color: coral;
+    --bs-btn-border-color: coral;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: coral;
+    --bs-btn-hover-border-color: coral;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: coral;
+    --bs-btn-active-border-color: coral;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: coral;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: coral;
+    --bs-gradient: none;
+}
+@media screen and (max-width: 992px){
+  .border {
+    border: 0!important;
+  }
+  .shadow-in {
+    -moz-box-shadow:    inset 0 0 0px #000000;
+    -webkit-box-shadow: inset 0 0 0px #000000;
+    box-shadow:         inset 0 0 0px #000000;
+    }
+  .shadow-lg{
+    -moz-box-shadow:    inset 0 0 0px #000000;
+    -webkit-box-shadow: inset 0 0 0px #000000;
+    box-shadow:         inset 0 0 0px #000000;
+  }
+  .display-lg-3{
+    font-size: calc(1.525rem + 3.3vw);
+  }
+}
