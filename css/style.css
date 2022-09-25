@@ -37,6 +37,28 @@ b{
     --bs-btn-disabled-border-color: coral;
     --bs-gradient: none;
 }
+svg#freepik_stories-programming:not(.animated) .animable {
+  opacity: 0;
+}        
+svg#freepik_stories-programming.animated #freepik--background-complete--inject-2 {
+  animation: 3s Infinite  linear floating;animation-delay: 0.3s;
+}
+svg#freepik_stories-programming.animated #freepik--Screens--inject-2 {
+  animation: 3s Infinite  linear floating;animation-delay: -0.1s;
+}            
+@keyframes floating {                
+  0% {                    
+    opacity: 1;                    
+    transform: translateY(0px);               
+  }                
+  50% {                    
+    transform: translateY(-10px);                
+  }                
+  100% {                    
+    opacity: 1;                    
+    transform: translateY(0px);                
+  }          
+}
 @media screen and (max-width: 992px){
   .border {
     border: 0!important;
